@@ -1,1 +1,1 @@
-![Image](https://github.com/k-bastian/cse15l-lab-reports/blob/91217ff550ef39bbbd6966dfeda9d8295a9980b7/ScreenShot2022-09-24.png)
+![Image](ScreenShot2022-09-24.png)
