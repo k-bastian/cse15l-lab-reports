@@ -1,19 +1,29 @@
-# Lab Report 2
+# **Lab Report 2**
 
-## Installing Visual Studio Code
+## **Installing Visual Studio Code**
 ### asdf
 
-## Remotely Connecting
+---
+
+## **Remotely Connecting**
 ### asdf
 
-## Trying Some Commands
+---
+
+## **Trying Some Commands**
 ### asdf
 
-## Moving Files with `scp`
+---
+
+## **Moving Files with `scp`**
 ### asdf
 
-## Setting an SSH Key
+---
+
+## **Setting an SSH Key**
 ### asdf
 
-## Optimizing Remote Running
+---
+
+## **Optimizing Remote Running**
 ### asdf
