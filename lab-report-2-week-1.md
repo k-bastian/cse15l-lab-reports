@@ -11,7 +11,28 @@
 ---
 
 ## **Remotely Connecting**
-### asdf
+### The next step is to connect to a remote computer using your CSE 15L account.
+
+*If you are using Windows, you will need to first install OpenSSH from [this website](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).*
+
+### Remote connection will happen using a terminal in Visual Studio Code. In the terminal, enter the following command (replace  `zz` with your username):
+
+```
+$ ssh cs15lfa22zz@ieng6.ucsd.edu
+```
+
+### The first time you login, you will get a message similar to the following:
+
+```
+# On your client
+⤇ ssh cs15lfa22zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Password:
+```
+
+### Type `yes`, then enter your password.
 
 ---
 
