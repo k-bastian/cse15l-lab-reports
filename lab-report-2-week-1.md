@@ -1,4 +1,4 @@
-# **Lab Report 2**
+# **Lab Report 1**
 
 ## **Installing Visual Studio Code**
 First, go to [https://code.visualstudio.com/]( https://code.visualstudio.com/) and install the correct version of Visual Studio Code for your specific operating system (macOS or Windows). Installation instructions will be provided for each operating system.
