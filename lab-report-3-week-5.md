@@ -2,9 +2,11 @@
 
 ## **Researching Commands**
 ### `grep -w`
-This command is used to limit the search to only find full words within the file or directory. Substrings of words are left out of the search.
+This command is used to limit the search to only find full words within the file or directory. Substrings of words are left out of the search. This command is useful if a user wants to search only for exact mentions of the term they are searching for.
 
 Example 1
+
+In this example, the string "urgently" is being searched for in all of the files within the 911report directory. It outputs the names of each file and the lines in these files that contain the full string.
 ```
 $ grep -w urgently technical/911report/*
 
@@ -15,6 +17,8 @@ technical/911report/chapter-9.txt:                leave the complex urgently but
 ```
 
 Example 2
+
+In this example, the string "cardiac" is searched for in the cc2160.txt file. All lines which contain the full string are printed in the output.
 ```
 $ grep -w cardiac technical/biomed/cc2160.txt
 
@@ -29,6 +33,8 @@ to detect critical cardiac arrhythmias as soon as possible,
 ```
 
 Example 3
+
+In this example, the string "million" is being searched for within the BusinessWire.txt file. All lines which contain the word million are included in the output.
 ```
 $ grep -w million technical/government/Media/BusinessWire.txt
 
@@ -46,9 +52,11 @@ poor both rose in 2001, to 11.7 percent and 32.9 million, up
 
 
 ### `grep -i`
-This command is used to search for all matching strings regardless of the case of the given search term.
+This command is used to search for all matching strings regardless of the case of the given search term. This command is useful because some strings may occur at the beginning of sentences, and if they are capitalized they are normally not included in the output.
 
 Example 1
+
+In this example, the string "communication" is searched for within the og98019.txt file. All lines that include this string are included in the output, regardless of the case and whether it is a substring.
 ```
 $ grep -i communication technical/government/Gen_Account_Office/og98019.txt
 
@@ -66,8 +74,11 @@ Communications Act of 1934. 47 U.S.C. §§ 151, 152, 154(i), 201,
 ```
 
 Example 2
+
+In this example, the string "creat" is searched for within the journal.pbio.0020047.txt file. All lines that include this as a substring or full string, regardless of case, are included in the output.
 ```
 $ grep -i creat technical/plos/journal.pbio.0020047.txt
+
 Creative human beings are the torch-bearers of civilization. How does their creativity
 create the richest literary treasure in the English language. We wonder how Michelangelo—a
 influences shaped their brains to create—and to create these very specific wondrous things?
@@ -82,6 +93,8 @@ about the nature of creativity, its origins in the mind/brain and in the human g
 ```
 
 Example 3
+
+In this example, "camp" is searched for within the 1471-2105-3-38.txt file. Although the strings appear as "cAMP" in the file, they are included in output because case is ignored.
 ```
 $ grep -i camp technical/biomed/1471-2105-3-38.txt
 
@@ -96,9 +109,11 @@ oscillatory behaviour in cAMP signalling observed in the
 
 
 ### `grep -c`
-This command is used to output the count of how many times the search term is found in the given file or directory.
+This command is used to output the count of how many times the search term is found in the given file or directory. This command is useful if the user is interested in determining how many times a string appears in a file or directory, rather than what lines they appear in.
 
 Example 1
+
+In this example, the string "million" is searched within the Redacted_Study.txt file and the number of occurrences within the file is outputted.
 ```
 $ grep -c million technical/government/Post_Rate_Comm/Redacted_Study.txt
 
@@ -106,6 +121,8 @@ $ grep -c million technical/government/Post_Rate_Comm/Redacted_Study.txt
 ```
 
 Example 2
+
+In this example, the term "September" is searched for within the 911report directory. All the file names and the counts of string appearances in each file are included in the output.
 ```
 $ grep -c September technical/911report/*
 
@@ -129,6 +146,8 @@ technical/911report/preface.txt:4
 ```
 
 Example 3
+
+In this example, the "disease" string is searched for within two files in the plos directory. The names of those two files and the number of occurrences are included in the output.
 ```
 $ grep -c disease technical/plos/pmed.0020148.txt technical/plos/pmed.0020149.txt
 
