@@ -7,32 +7,32 @@
 
 ```/start<Enter>```
 
-Search for start.
+Search for "start" within the file.
 ![Image](startenter.png)
 
 ```ce```
 
-Delete start and enter Insert Mode.
+Delete "start" and enter Insert Mode.
 ![Image](ce.png)
 
 ```base<Esc>```
 
-Insert base and exit Insert Mode.
+Insert "base" and exit Insert Mode.
 ![Image](baseesc.png)
 
 ```n.```
 
-Repeat search for and delete start, repeat insert base.
+```n``` repeats the search for "start". ```.``` repeats the deletion of "start" and the insertion of "base".
 ![Image](nperiod.png)
 
 ```n.```
 
-Repeat search for and delete start, repeat insert base.
+```n``` repeats the search for "start". ```.``` repeats the deletion of "start" and the insertion of "base".
 ![Image](nperiod2.png)
 
 ```:w<Enter>```
 
-Save changes.
+Save changes to the file.
 ![Image](wenter.png)
 
 ---
