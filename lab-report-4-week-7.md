@@ -40,9 +40,11 @@ Save changes.
 ## **Part 2: Running Vim Remotely**
 ### Method 1: Visual Studio Code then ```scp``` ###
 Time: 56 seconds
+Difficulties: None
 
 ### Method 2: Vim from Remote Server ###
 Time: 24 seconds
+Difficulties: None
 
 ### Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why? ###
 * If I was already logged into the remote server, I would prefer to make edits using Vim because I would not have to exit the remote server. Using the first method, I would have to leave the remote server, make the edit, then copy it over and log back in again. Although I generally prefer using Visual Studio Code, it would be much faster to use Vim in this situation.
